@@ -45,8 +45,8 @@ a {
 .header-link {
     font-weight: 500;
     color: #707070;
+    text-transform: capitalize;
 }
-
 /* Styles for section one */
 .hero {
     border-bottom: 2px solid #779611;
@@ -80,10 +80,9 @@ a {
     padding: 18px 70px;
     width: 224px;
     height: 75px;
-    color: black;
-}
-.hero-img {
-    width: 490px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 32px;
 }
 
 /* About us */
@@ -92,9 +91,6 @@ a {
     border-top: 2px solid #779611;
     padding: 114px 0px;
 
-}
-.about-us-img {
-    width: 490px;
 }
 
 .about-us-container {
@@ -122,7 +118,6 @@ a {
     font-size: 24px;
     color: #779611;
     font-family: "Exo 2", sans-serif;
-
 }
 
 /* second section */
@@ -160,9 +155,7 @@ a {
     padding-left: 60px;
 }
 
-.shop-img {
-    width: 490px;
-}
+
 
 .subscription-title {
     padding-top: 80px;
@@ -201,9 +194,6 @@ a {
     padding-bottom: 80px;
 }
 
-.subscription-img {
-    width: 490px;
-}
 
 .footer {
     display: flex;
